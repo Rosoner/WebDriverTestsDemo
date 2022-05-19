@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriverTestsDemo", "WebDriverTestsDemo\WebDriverTestsDemo.csproj", "{EABF1364-B16C-4380-B90B-A6B1F3859C31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebDriverTestsDemo", "WebDriverTestsDemo\WebDriverTestsDemo.csproj", "{EABF1364-B16C-4380-B90B-A6B1F3859C31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NunitWebDriverTests", "NunitWebDriverTests\NunitWebDriverTests.csproj", "{B4ADBD52-6566-4FC0-98E6-21B537EC8D2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NunitWebDriverTests", "NunitWebDriverTests\NunitWebDriverTests.csproj", "{B4ADBD52-6566-4FC0-98E6-21B537EC8D2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataDrivenTestingCalculator", "DataDrivenTestingCalculator\DataDrivenTestingCalculator.csproj", "{AC9A86A3-B74A-4238-826D-94D1AB32B2BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B4ADBD52-6566-4FC0-98E6-21B537EC8D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4ADBD52-6566-4FC0-98E6-21B537EC8D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4ADBD52-6566-4FC0-98E6-21B537EC8D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC9A86A3-B74A-4238-826D-94D1AB32B2BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC9A86A3-B74A-4238-826D-94D1AB32B2BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC9A86A3-B74A-4238-826D-94D1AB32B2BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC9A86A3-B74A-4238-826D-94D1AB32B2BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
