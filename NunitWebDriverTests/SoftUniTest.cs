@@ -12,6 +12,10 @@ namespace NunitWebDriverTests
         [OneTimeSetUp]
         public void OpenBrowserAndNavigate()
         {
+            //// Add option to chrome browse instance
+            //var options = new ChromeOptions();
+            //options.AddArgument("--headless");
+
             this.driver = new ChromeDriver();
             driver.Url = "https://softuni.bg/";
             driver.Manage().Window.Maximize();
